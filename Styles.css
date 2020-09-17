@@ -1,0 +1,42 @@
+html {
+	overflow-y: scroll;
+}
+* {
+	margin: 0px;
+}
+header{
+	background-color:#F0E7E7;
+	padding: 10px;
+}
+footer{
+	background-color:#F0E7E7; 
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+}
+p {
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 30px;
+}
+ul {
+	font-size: 30px;
+	margin-left: 30px;
+}
+h1 {
+	font-size: 45px;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-family: "Arial", Helvetica, sans-serif;
+	background-position: 50% 50%; 
+	background-image: url('Background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	margin-bottom: 100px;
+}
