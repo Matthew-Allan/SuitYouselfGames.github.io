@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+	<head>
+		<title>SuitYourselfGames</title>
+		<link rel="icon" href="SuitYourself_logo_2.png">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+
+		<nav class="topnav">
+			<img class="logo" src="SuitYourself_logo_2.png">
+		</nav>
+
+		<div class = "imageDivider" style="background-image: url('A_Peaceful_Night.png')"></div>
+		
+		<div class="textSection", style="padding-top: 100px; padding-bottom: 100px">
+			<p>
+				Website Coming Soon!
+			</p>
+		</div>
+		
+		<div class = "imageDivider" style="background-image: url('Hand.png')"></div>
+		
+		<nav class="topnav">
+		</nav>
+		
+	</body>
