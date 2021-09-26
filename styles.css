@@ -63,10 +63,10 @@ body {
 	transform: translate(-120%);
 }
 #mushroomDivider {
-	background-image: url('Mushroom.png');
+	background-image: url('./Media/Mushroom.png');
 }
 #landscapeDivider {
-	background-image: url('A_Peaceful_Night.png');
+	background-image: url('./Media/A_Peaceful_Night.png');
 }
 @media (max-width: 600px) {
 	.imageDivider {
