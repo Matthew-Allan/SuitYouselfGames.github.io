@@ -64,7 +64,7 @@ body {
 }
 .canvas {
 	position: relative;
-	width: 90vw;
+	width: 70vw;
 	height: auto;
 	left: 50%;
 	transform: translate(-50%);
