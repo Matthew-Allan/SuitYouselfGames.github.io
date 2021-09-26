@@ -9,7 +9,14 @@ body {
 	background-color: #000000;
 	margin: 0px;
 }
-a {
+.words {
+	position: relative;
+	text-align: center;
+	width: 60%;
+	left: 50%;
+	transform: translate(-50%);
+}
+.link {
 	position: absolute;
 	color: inherit;
 	text-decoration: inherit;
@@ -17,7 +24,7 @@ a {
 	left: 50%;
 	
 }
-a:hover {
+.link:hover {
 	color: purple;
 	text-decoration: underline;
 }
@@ -54,6 +61,12 @@ a:hover {
 	height: auto;
 	left: 50%;
 	transform: translate(-120%);
+}
+#mushroomDivider {
+	background-image: url('Mushroom.png');
+}
+#landscapeDivider {
+	background-image: url('A_Peaceful_Night.png');
 }
 @media (max-width: 600px) {
 	.imageDivider {
