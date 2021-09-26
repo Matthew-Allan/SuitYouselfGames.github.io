@@ -62,6 +62,16 @@ body {
 	left: 50%;
 	transform: translate(-120%);
 }
+.canvas {
+	position: relative;
+	width: 60vh;
+	height: auto;
+	left: 50%;
+	transform: translate(-50%);
+	margin-bottom: 15px;
+	margin-top: 15px;
+	filter: drop-shadow(0 0 20px #000000);
+}
 #mushroomDivider {
 	background-image: url('./Media/Mushroom.png');
 }
