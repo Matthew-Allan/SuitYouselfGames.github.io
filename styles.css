@@ -16,6 +16,8 @@ body {
 	background-color:  #222035;
 	width: 100%;
 	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .logo {
 	position: relative;
