@@ -4,16 +4,20 @@ html{
 body {
 	font-family: "Arial", Helvetica, sans-serif;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 22px;
 	color: #DCDCDC;
 	background-color: #000000;
 	margin: 0px;
 }
 a {
+	position: absolute;
 	color: inherit;
 	text-decoration: inherit;
+    line-height: 64px;
+	left: 50%;
+	
 }
-a:hover{
+a:hover {
 	color: purple;
 	text-decoration: underline;
 }
@@ -23,7 +27,6 @@ a:hover{
 	filter: drop-shadow(0 0 20px #000000);
 	background-color:  #222035;
 	width: 100%;
-	text-align: center;
 }
 .logo {
 	position: relative;
@@ -47,10 +50,11 @@ a:hover{
 	background-repeat: no-repeat, no-repeat;
 }
 .icon {
+	position: relative;
 	width: 64px;
 	height: auto;
-	padding: 0px;
-	transform: translate(-50%, 35%);
+	left: 50%;
+	transform: translate(-120%);
 }
 @media (max-width: 600px) {
 	.imageDivider {
@@ -61,7 +65,7 @@ a:hover{
 	}
 	.textSection {
 		padding-top: 50px;
-		padding-bottom: 70px;
+		padding-bottom: 50px;
 	}
 }
 @media (min-width: 601px) {
@@ -72,7 +76,7 @@ a:hover{
 		background-position: center;
 	}
 	.textSection {
-		padding-top: 100px;
-		padding-bottom: 120px;
+		padding-top: 60px;
+		padding-bottom: 60px;
 	}
 }
