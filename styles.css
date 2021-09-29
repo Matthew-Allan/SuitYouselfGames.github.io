@@ -65,13 +65,19 @@ body {
 .canvas {
 	position: relative;
 	width: 90vh;
-        max-width: 90vw;
+    max-width: 90vw;
 	height: auto;
 	left: 50%;
 	transform: translate(-50%);
-	margin-bottom: 15px;
-	margin-top: 15px;
+	margin-bottom: 30px;
 	filter: drop-shadow(0 0 20px #000000);
+}
+.dropdownButton{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 64px;
+	height: auto;
 }
 #mushroomDivider {
 	background-image: url('./Media/Mushroom.png');
