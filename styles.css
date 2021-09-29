@@ -40,14 +40,15 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: auto;
-	height: 100%;
+	height: 130px;
 }
-.topnav {
+.bar {
 	position: relative;
 	filter: drop-shadow(0 0 20px #000000);
 	width: 100%;
 	height: 130px;
 	background-color: #222035;
+	transition: all .5s;
 }
 .imageDivider {
 	position: relative;
@@ -73,11 +74,13 @@ body {
 	filter: drop-shadow(0 0 20px #000000);
 }
 .dropdownButton{
+	top: 0px;
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%);
 	width: 64px;
 	height: auto;
+	transition: top .5s;
 }
 #mushroomDivider {
 	background-image: url('./Media/Mushroom.png');

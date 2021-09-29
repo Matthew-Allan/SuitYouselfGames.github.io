@@ -5,13 +5,13 @@
 		<link rel="icon" href="./Media/SuitYourself_logo_2.png">
 		<link rel="stylesheet" href="styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<script src="scripts.js"></script>
 	</head>
 	
 	<body>
 
-		<nav class="topnav">
-			<a href="index.html"><img class="dropdownButton" src="./Media/House_Logo.png"></a>
+		<nav class="bar" id="topnav">
+			<input type="image" onclick="drop()" class="dropdownButton" src="./Media/Gallery_Logo.png" id="arrow"></input>
 			<a href="/"><img class="logo" src="./Media/SuitYourself_logo_2.png"></a>
 		</nav>
 
@@ -66,7 +66,7 @@
 				<img class="canvas" src="./Media/Castle Island.png">
 				<br>
 				<img class="icon" src="./Media/House_Logo.png">
-				<a class="link" href="./">
+				<a class="link" href="#" onclick="scroll_to_top()">
 					Return to top
 				</a>
 			</div>
@@ -74,7 +74,7 @@
 		
 		<div class = "imageDivider" id="mushroomDivider"></div>
 		
-		<nav class="topnav">
+		<nav class="bar">
 		</nav>
 		
 	</body>
