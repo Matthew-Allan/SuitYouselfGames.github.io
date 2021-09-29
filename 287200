@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+	<head>
+		<title>SuitYourselfGames - Gallery</title>
+		<link rel="icon" href="./Media/SuitYourself_logo_2.png">
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="scripts.js"></script>
+	</head>
+	
+	<body oncontextmenu="return false">
+
+		<nav class="bar" id="topnav">
+			<a><div class="menuLink" style="left: 5%; background-color: #1e1c31" id="menuLink">
+				<img class="icon" src="./Media/Gallery_Logo.png">
+				<p class="linkText">Gallery</p>
+			</div></a>
+			<a href="./"><div class="menuLink" style="left: 50%" id="menuLink">
+				<img class="icon" src="./Media/House_Logo.png">
+				<p class="linkText">Links</p>
+			</div></a>
+			<input type="image" onclick="drop()" src="./Media/Menu_Icon.png" id="menuButton" class="menuButton"></input>
+			<img class="logo" src="./Media/SuitYourself_logo_2.png">
+		</nav>
+
+		<div class = "imageDivider" id="landscapeDivider"></div>
+		
+		<div class="textSection">
+			<div>
+				<img class="canvas" src="./Media/Crab.png">
+				<br>
+				<img class="canvas" src="./Media/Lake District Scene.png">
+				<br>
+				<img class="canvas" src="./Media/Boal Of Fruit.png">
+				<br>
+				<img class="canvas" src="./Media/Mushroom.png">
+				<br>
+				<img class="canvas" src="./Media/Hand.png">
+				<br>
+				<img class="canvas" src="./Media/A_Peaceful_Night.png">
+				<br>
+				<img class="canvas" src="./Media/Space.png">
+				<br>
+				<img class="canvas" src="./Media/Cello.gif">
+				<br>
+				<img class="canvas" src="./Media/Car.png">
+				<br>
+				<img class="canvas" src="./Media/FishPond.png">
+				<br>
+				<img class="canvas" src="./Media/Pen_1.png">
+				<br>
+				<img class="canvas" src="./Media/Totem Pole.png">
+				<br>
+				<img class="canvas" src="./Media/Merchant.png">
+				<br>
+				<img class="canvas" src="./Media/London Rd.png">
+				<br>
+				<img class="canvas" src="./Media/Foggy Trees.png">
+				<br>
+				<img class="canvas" src="./Media/jess.png">
+				<br>
+				<img class="canvas" src="./Media/IsoHouse.png">
+				<br>
+				<img class="canvas" src="./Media/Gabe's.png">
+				<br>
+				<img class="canvas" src="./Media/Squishy David.gif">
+				<br>
+				<img class="canvas" src="./Media/towers1.png">
+				<br>
+				<img class="canvas" src="./Media/Tank.gif">
+				<br>
+				<img class="canvas" src="./Media/chest.gif">
+				<br>
+				<img class="canvas" src="./Media/Castle Island.png">
+				<br>
+				<a href="#" onclick="scroll_to_top()"><div class="linkButton">
+					<img class="icon" src="./Media/House_Logo.png">
+					<p class="linkText">Return to top</p>
+				</div></a>
+			</div>
+		</div>
+		
+		<div class = "imageDivider" id="mushroomDivider"></div>
+		
+		<nav class="bar">
+		</nav>
+		
+	</body>
