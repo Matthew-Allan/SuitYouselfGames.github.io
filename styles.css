@@ -75,7 +75,7 @@ a {
 .canvas {
 	position: relative;
 	width: 90vh;
-    max-width: 90vw;
+    	max-width: 90vw;
 	height: auto;
 	left: 50%;
 	transform: translate(-50%);
@@ -97,7 +97,7 @@ a {
 .menuLink {
 	position: absolute;
 	height: 70px;
-	width: 45%;
+	width: 48%;
 	bottom: 145px;
 	background-color: #222035;
 	transition: all .2s;
