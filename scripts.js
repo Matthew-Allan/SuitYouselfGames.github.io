@@ -17,7 +17,6 @@ function move_menu_buttons() {
 		console.log("Mobile");
 	}
 	else {
-		console.log(window.innerHeight);
-		console.log(window.innerWidth);
+		console.log("PC");
 	}
 }
