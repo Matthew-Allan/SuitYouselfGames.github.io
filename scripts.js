@@ -1,13 +1,12 @@
 window.addEventListener('resize', toggle);
 function toggle() {
-	console.log(document.getElementById("topnav").style.height);
-	if (document.getElementById("topnav").style.height == "130px"){
-		document.getElementById("topnav").style.height = "230px";
+	if (document.getElementById("topnav").style.height == "230px"){
+		document.getElementById("topnav").style.height = "130px";
 		console.log(document.getElementById("topnav").style.height);
 	}
 	else {
 		console.log("down");
-		document.getElementById("topnav").style.height = "130px";
+		document.getElementById("topnav").style.height = "230px";
 	}
 }
 function scroll_to_top() {
