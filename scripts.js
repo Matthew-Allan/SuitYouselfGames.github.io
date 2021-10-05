@@ -1,5 +1,6 @@
 window.addEventListener('resize', toggle);
 function toggle() {
+	console.log(document.getElementById("topnav").style.height);
 	if (document.getElementById("topnav").style.height == "130px"){
 		document.getElementById("topnav").style.height = "230px";
 		console.log(document.getElementById("topnav").style.height);
