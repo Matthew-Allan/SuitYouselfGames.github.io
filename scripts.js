@@ -13,11 +13,11 @@ function scroll_to_top() {
 	window.scrollTo(0, 0);
 }
 function move_menu_buttons() {
-	if (window.innnerHeight > window.innerWidth) {
+	if (window.innerHeight > window.innerWidth) {
 		console.log("Mobile");
 	}
 	else {
-		console.log(window.innnerHeight);
+		console.log(window.innerHeight);
 		console.log(window.innerWidth);
 	}
 }
