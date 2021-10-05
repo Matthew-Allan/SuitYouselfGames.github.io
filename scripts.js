@@ -12,3 +12,11 @@ function toggle() {
 function scroll_to_top() {
 	window.scrollTo(0, 0);
 }
+function move_menu_buttons() {
+	if (window.innnerHeight > window.innerWidth) {
+		console.log("Mobile");
+	}
+	else {
+		console.log("PC");
+	}
+}
