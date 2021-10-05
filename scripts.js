@@ -1,4 +1,4 @@
-window.addEventListener('resize', toggle);
+window.addEventListener('resize', move_menu_buttons);
 function toggle() {
 	if (document.getElementById("topnav").style.height == "230px"){
 		document.getElementById("topnav").style.height = "130px";
