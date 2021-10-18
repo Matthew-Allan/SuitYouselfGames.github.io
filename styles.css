@@ -94,16 +94,41 @@ a {
 .menuButton:hover{
 	background-color: #1e1c31;
 }
+.menu{
+	margin:0px;
+	position: absolute;
+	bottom: 215px;
+	width: 100%;
+}
 .menuLink {
 	position: absolute;
 	height: 70px;
 	width: 47%;
-	bottom: 145px;
 	background-color: #222035;
 	transition: all .2s;
 }
 .menuLink:hover{
 	background-color: #1e1c31;
+}
+.menuLinkMobile {
+	position: absolute;
+	height: 70px;
+	left: 3%;
+	width: 94%;
+	background-color: #222035;
+	transition: all .2s;
+}
+.menuLinkMobile:hover{
+	background-color: #1e1c31;
+}
+#leftButton {
+	left: 2%;
+}
+#rightButton {
+	left: 51%;
+}
+#topButton {
+	bottom: 10px;
 }
 #mushroomDivider {
 	background-image: url('./Media/Mushroom.png');

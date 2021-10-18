@@ -11,14 +11,16 @@
 	<body oncontextmenu="return false">
 
 		<nav class="bar" id="topnav">
-			<a><div class="menuLink" style="left: 2%; background-color: #1e1c31" id="menuLink">
-				<img class="icon" src="./Media/House_Logo.png">
-				<p class="linkText">Links</p>
-			</div></a>
-			<a href="gallery.html"><div class="menuLink" style="left: 51%" id="menuLink">
-				<img class="icon" src="./Media/Gallery_Logo.png">
-				<p class="linkText">Gallery</p>
-			</div></a>
+			<div class="menu">
+				<a><div class="menuLink" style="background-color: #1e1c31" id="leftButton">
+					<img class="icon" src="./Media/House_Logo.png">
+					<p class="linkText">Links</p>
+				</div></a>
+				<a href="gallery.html"><div class="menuLink" id="rightButton">
+					<img class="icon" src="./Media/Gallery_Logo.png">
+					<p class="linkText">Gallery</p>
+				</div></a>
+			</div>
 			<input type="image" onclick="toggle()" src="./Media/Menu_Icon.png" id="menuButton" class="menuButton"></input>
 			<img class="logo" src="./Media/SuitYourself_logo_2.png">
 		</nav>
