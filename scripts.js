@@ -27,10 +27,12 @@ function move_menu_buttons() {
 			document.getElementById("topnav").style.height = "310px";
 		}
 		topnavHeight = "310px";
-		document.getElementById("leftButton").id = "topButton"
-		document.getElementById("rightButton").id = "bottomButton"
-		document.getElementById("topButton").className = "menuLinkMobile"
-		document.getElementById("bottomButton").className = "menuLinkMobile"
+		if (document.getElementById("leftButton") != null){
+			document.getElementById("leftButton").id = "topButton"
+			document.getElementById("rightButton").id = "bottomButton"
+			document.getElementById("topButton").className = "menuLinkMobile"
+			document.getElementById("bottomButton").className = "menuLinkMobile"
+		}
 	}
 	else {
 		console.log("PC");
@@ -38,9 +40,11 @@ function move_menu_buttons() {
 			document.getElementById("topnav").style.height = "230px";
 		}
 		topnavHeight = "230px";
-		document.getElementById("topButton").id = "leftButton"
-		document.getElementById("bottomButton").id = "rightButton"
-		document.getElementById("leftButton").className = "menuLink"
-		document.getElementById("rightButton").className = "menuLink"
+		if (document.getElementById("topButton") != null){
+			document.getElementById("topButton").id = "leftButton"
+			document.getElementById("bottomButton").id = "rightButton"
+			document.getElementById("leftButton").className = "menuLink"
+			document.getElementById("rightButton").className = "menuLink"
+		}
 	}
 }
