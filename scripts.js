@@ -22,7 +22,6 @@ function scroll_to_top() {
 }
 function move_menu_buttons() {
 	if (window.innerHeight > window.innerWidth) {
-		console.log("Mobile");
 		if (document.getElementById("topnav").style.height == topnavHeight){
 			document.getElementById("topnav").style.height = "310px";
 		}
@@ -35,7 +34,6 @@ function move_menu_buttons() {
 		}
 	}
 	else {
-		console.log("PC");
 		if (document.getElementById("topnav").style.height == topnavHeight){
 			document.getElementById("topnav").style.height = "230px";
 		}
